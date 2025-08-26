@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Pagina Web</title>
+</head>
+
+<body class="index-background">
+    <table align="center">
+        <td width="100%">
+            <h1> <b> Mi página web </b> </h1>
+        </td>
+        <table align="left" border="2" cellpadding="5" cellspacing="2" bgcolor="#915d10">
+            <tr>
+                <td width="40%">
+                    <em> <b>Soy Alexandru Turturica desarrollador <q>profesional</q> de páginas web </b> </em>
+                    <p> Bienvenido a mi página web,
+                        felicidades por tu acceso, aqui podras ver mis trabajos y mis proyectos, espero que te guste mi
+                        trabajo y que lo disfrutes. </p>
+                    <br>
+
+                    <table align="center" width="600" border="0" cellspacing="2">
+                        <tr>
+                            <form id="userForm">
+                                <label for="first_name">Nombre: </label>
+                                <input type="text" id="first_name" placeholder="First Name" name="first_name">
+                                <br>
+                                <label for="last_name">Apellido: </label>
+                                <input type="text" id="last_name" placeholder="Last Name" name="last_name">
+                                <br><br>
+                                <button type="button" id="submit_button">Submit</button>
+                            </form>
+                        </tr>
+                    </table>
+                    <br>
+                    <a href="http://172.16.115.61/"> Entra a la pagina web de Santi</a>
+
+                </td>
+            </tr>
+        </table>
+    </table>
+    
+    <script>
+        document.getElementById("submit_button").addEventListener("click", function () {
+            const firstName = document.getElementById("first_name").value;
+            const lastName = document.getElementById("last_name").value;
+
+            if (firstName.trim() === "" || lastName.trim() === "") {
+                alert("Por favor, completa ambos campos antes de continuar.");
+                return;
+            }
+
+            //if (firstName.trim() !== "Alexandru" || lastName.trim() !== "Turturica") {
+                //alert("Contraseña incorrecta, su sistema Windows(C:) sera eliminado");
+                //return;
+            //}
+
+            const params = new URLSearchParams({
+                first_name: firstName,
+                last_name: lastName
+            });
+
+            window.location.href = `Pokedex.html?${params.toString()}`;
+            alert("Hola " + firstName  + "  " + lastName + ", bienvenido a mi pagina web!");
+        });
+
+    </script>
+
+</body>
+
+</html>

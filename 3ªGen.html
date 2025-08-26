@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title> Tercera Generación </title>
+</head>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("menuButton").addEventListener("click", function () {
+      const menuContent = document.getElementById("menuContent");
+      if (menuContent.style.display === "block") {
+        menuContent.style.display = "none";
+      } else {
+        menuContent.style.display = "block";
+      }
+    });
+  });
+</script>
+
+<body>  
+  <header>
+    <table align="center">
+      <th width="100%" style="position: relative;">
+        <h1> Tercera generación </h1>
+      </th>
+      <th>
+        <div class="menu">
+          <button class="menu-button" id="menuButton"></button>
+          <div class="menu-content" id="menuContent">
+            <table border="2" cellpadding="5" cellspacing="2" bgcolor="#915d10">
+              <td bgcolor="bdb799">
+                <a href="Pokedex.html">Pokédex</a>
+                <hr>
+                <a href="1ªGen.html">Primera Generación</a>
+                <hr>
+                <a href="2ªGen.html">Segunda Generación</a>
+                <hr>
+                <a href="3ªGen.html">Tercera Generación</a>
+                <hr>
+                <a href="4ªGen.html">Cuarta Generación</a>
+                <hr>
+                <a href="5ªGen.html">Quinta Generación</a>
+                <hr>
+                <a href="6ªGen.html">Sexta Generación</a>
+                <hr>
+                <a href="7ªGen.html">Séptima Generación</a>
+                <hr>
+                <a href="8ªGen.html">Octava Generación</a>
+                <hr>
+                <a href="9ªGen.html">Novena Generación</a>
+              </td>
+            </table>
+          </div>
+        </div>
+      </th>
+    </table>
+  </header>
+  <br><br><br><br><br><br><br><br><br>
+  
+  <table>
+    <tr>
+      <td width="70%" align="center" valign="top">
+        <table align="center" border="2" cellpadding="20" cellspacing="2" bgcolor="#915d10">
+          <tr>
+            <th width="1%">#</th>
+            <th width="10%">Imagen</th>
+            <th width="7%">Nombre</th>
+            <th width="13%">Descripción</th>
+          </tr>
+          <tr>
+            <td>252</td>
+            <td><img src="Imagenes/480px-Treecko.png" width="100"></td>
+            <td>Treecko</td>
+            <td>De tipo planta.</td>
+          </tr>
+          <tr>
+            <td>253</td>
+            <td><img src="Imagenes/480px-Grovyle.png" width="100"></td>
+            <td>Grovyle</td>
+            <td>De tipo planta. Evolución de Treecko.</td>
+          </tr>
+          <tr>
+            <td>254</td>
+            <td><img src="Imagenes/480px-Sceptile.png" width="100"></td>
+            <td>Sceptile</td>
+            <td>De tipo planta. Evolución de Grovyle.</td>
+          </tr>
+          <tr>
+            <td>255</td>
+            <td><img src="Imagenes/480px-Torchic.png" width="100"></td>
+            <td>Torchic</td>
+            <td>De tipo fuego.</td>
+          </tr>
+          <tr>
+            <td>256</td>
+            <td><img src="Imagenes/480px-Combusken.png" width="100"></td>
+            <td>Combusken</td>
+            <td>De tipo fuego y lucha. Evolución de Torchic.</td>
+          </tr>
+          <tr>
+            <td>257</td>
+            <td><img src="Imagenes/480px-Blaziken.png" width="100"></td>
+            <td>Blaziken</td>
+            <td>De tipo fuego y lucha. Evolución de Combusken.</td>
+          </tr>
+          <tr>
+            <td>258</td>
+            <td><img src="Imagenes/480px-Mudkip.png" width="100"></td>
+            <td>Mudkip</td>
+            <td>De tipo agua.</td>
+          </tr>
+          <tr>
+            <td>259</td>
+            <td><img src="Imagenes/480px-Marshtomp.png" width="100"></td>
+            <td>Marshtomp</td>
+            <td>De tipo agua y tierra. Evolución de Mudkip.</td>
+          </tr>
+          <tr>
+            <td>260</td>
+            <td><img src="Imagenes/480px-Swampert.png" width="100"></td>
+            <td>Swampert</td>
+            <td>De tipo agua y tierra. Evolución de Marshtomp.</td>
+          </tr>
+          <tr>
+            <td>261</td>
+            <td><img src="Imagenes/480px-Poochyena.png" width="100"></td>
+            <td>Poochyena</td>
+            <td>De tipo siniestro.</td>
+          </tr>
+          <tr>
+            <td>262</td>
+            <td><img src="Imagenes/480px-Mightyena.png" width="100"></td>
+            <td>Mightyena</td>
+            <td>De tipo siniestro. Evolución de Poochyena.</td>
+          </tr>
+          <tr>
+            <td>263</td>
+            <td><img src="Imagenes/480px-Zigzagoon.png" width="100"></td>
+            <td>Zigzagoon</td>
+            <td>De tipo normal.</td>
+          </tr>
+          <tr>
+            <td>264</td>
+            <td><img src="Imagenes/480px-Linoone.png" width="100"></td>
+            <td>Linoone</td>
+            <td>De tipo normal. Evolución de Zigzagoon.</td>
+          </tr>
+          <tr>
+            <td>265</td>
+            <td><img src="Imagenes/480px-Wurmple.png" width="100"></td>
+            <td>Wurmple</td>
+            <td>De tipo bicho.</td>
+          </tr>
+          <tr>
+            <td>266</td>
+            <td><img src="Imagenes/480px-Silcoon.png" width="100"></td>
+            <td>Silcoon</td>
+            <td>De tipo bicho. Evolución de Wurmple.</td>
+          </tr>
+          <tr>
+            <td>267</td>
+            <td><img src="Imagenes/480px-Beautifly.png" width="100"></td>
+            <td>Beautifly</td>
+            <td>De tipo bicho y volador. Evolución de Silcoon.</td>
+          </tr>
+          <tr>
+            <td>268</td>
+            <td><img src="Imagenes/480px-Cascoon.png" width="100"></td>
+            <td>Cascoon</td>
+            <td>De tipo bicho. Evolución de Wurmple.</td>
+          </tr>
+          <tr>
+            <td>269</td>
+            <td><img src="Imagenes/480px-Dustox.png" width="100"></td>
+            <td>Dustox</td>
+            <td>De tipo bicho y veneno. Evolución de Cascoon.</td>
+          </tr>
+          <tr>
+            <td>270</td>
+            <td><img src="Imagenes/480px-Lotad.png" width="100"></td>
+            <td>Lotad</td>
+            <td>De tipo agua y planta.</td>
+          </tr>
+          <tr>
+            <td>271</td>
+            <td><img src="Imagenes/480px-Lombre.png" width="100"></td>
+            <td>Lombre</td>
+            <td>De tipo agua y planta. Evolución de Lotad.</td>
+          </tr>
+          <tr>
+            <td>272</td>
+            <td><img src="Imagenes/480px-Ludicolo.png" width="100"></td>
+            <td>Ludicolo</td>
+            <td>De tipo agua y planta. Evolución de Lombre.</td>
+          </tr>
+          <tr>
+            <td>273</td>
+            <td><img src="Imagenes/480px-Seedot.png" width="100"></td>
+            <td>Seedot</td>
+            <td>De tipo planta.</td>
+          </tr>
+          <tr>
+            <td>274</td>
+            <td><img src="Imagenes/480px-Nuzleaf.png" width="100"></td>
+            <td>Nuzleaf</td>
+            <td>De tipo planta y siniestro. Evolución de Seedot.</td>
+          </tr>
+          <tr>
+            <td>275</td>
+            <td><img src="Imagenes/480px-Shiftry.png" width="100"></td>
+            <td>Shiftry</td>
+            <td>De tipo planta y siniestro. Evolución de Nuzleaf.</td>
+          </tr>
+          <tr>
+            <td>276</td>
+            <td><img src="Imagenes/480px-Taillow.png" width="100"></td>
+            <td>Taillow</td>
+            <td>De tipo normal y volador.</td>
+          </tr>
+          <tr>
+            <td>277</td>
+            <td><img src="Imagenes/480px-Swellow.png" width="100"></td>
+            <td>Swellow</td>
+            <td>De tipo normal y volador. Evolución de Taillow.</td>
+          </tr>
+          <tr>
+            <td>278</td>
+            <td><img src="Imagenes/480px-Wingull.png" width="100"></td>
+            <td>Wingull</td>
+            <td>De tipo agua y volador.</td>
+          </tr>
+          <tr>
+            <td>279</td>
+            <td><img src="Imagenes/480px-Pelipper.png" width="100"></td>
+            <td>Pelipper</td>
+            <td>De tipo agua y volador. Evolución de Wingull.</td>
+          </tr>
+          <tr>
+            <td>280</td>
+            <td><img src="Imagenes/480px-Ralts.png" width="100"></td>
+            <td>Ralts</td>
+            <td>De tipo psíquico y hada.</td>
+          </tr>
+          <tr>
+            <td>281</td>
+            <td><img src="Imagenes/480px-Kirlia.png" width="100"></td>
+            <td>Kirlia</td>
+            <td>De tipo psíquico y hada. Evolución de Ralts.</td>
+          </tr>
+          <tr>
+            <td>282</td>
+            <td><img src="Imagenes/480px-Gardevoir.png" width="100"></td>
+            <td>Gardevoir</td>
+            <td>De tipo psíquico y hada. Evolución de Kirlia.</td>
+          </tr>
+          <tr>
+            <td>283</td>
+            <td><img src="Imagenes/480px-Surskit.png" width="100"></td>
+            <td>Surskit</td>
+            <td>De tipo bicho y agua.</td>
+          </tr>
+          <tr>
+            <td>284</td>
+            <td><img src="Imagenes/480px-Masquerain.png" width="100"></td>
+            <td>Masquerain</td>
+            <td>De tipo bicho y volador. Evolución de Surskit.</td>
+          </tr>
+          <tr>
+            <td>285</td>
+            <td><img src="Imagenes/480px-Shroomish.png" width="100"></td>
+            <td>Shroomish</td>
+            <td>De tipo planta.</td>
+          </tr>
+          <tr>
+            <td>286</td>
+            <td><img src="Imagenes/480px-Breloom.png" width="100"></td>
+            <td>Breloom</td>
+            <td>De tipo planta y lucha. Evolución de Shroomish.</td>
+          </tr>
+          <tr>
+            <td>287</td>
+            <td><img src="Imagenes/480px-Slakoth.png" width="100"></td>
+            <td>Slakoth</td>
+            <td>De tipo normal.</td>
+          </tr>
+          <tr>
+            <td>288</td>
+            <td><img src="Imagenes/480px-Vigoroth.png" width="100"></td>
+            <td>Vigoroth</td>
+            <td>De tipo normal. Evolución de Slakoth.</td>
+          </tr>
+          <tr>
+            <td>289</td>
+            <td><img src="Imagenes/480px-Slaking.png" width="100"></td>
+            <td>Slaking</td>
+            <td>De tipo normal. Evolución de Vigoroth.</td>
+          </tr>
+          <tr>
+            <td>290</td>
+            <td><img src="Imagenes/480px-Nincada.png" width="100"></td>
+            <td>Nincada</td>
+            <td>De tipo bicho y tierra.</td>
+          </tr>
+          <tr>
+            <td>291</td>
+            <td><img src="Imagenes/480px-Ninjask.png" width="100"></td>
+            <td>Ninjask</td>
+            <td>De tipo bicho y volador. Evolución de Nincada.</td>
+          </tr>
+          <tr>
+            <td>292</td>
+            <td><img src="Imagenes/480px-Shedinja.png" width="100"></td>
+            <td>Shedinja</td>
+            <td>De tipo bicho y fantasma. Evolución de Nincada.</td>
+          </tr>
+          <tr>
+            <td>293</td>
+            <td><img src="Imagenes/480px-Whismur.png" width="100"></td>
+            <td>Whismur</td>
+            <td>De tipo normal.</td>
+          </tr>
+          <tr>
+            <td>294</td>
+            <td><img src="Imagenes/480px-Loudred.png" width="100"></td>
+            <td>Loudred</td>
+            <td>De tipo normal. Evolución de Whismur.</td>
+          </tr>
+          <tr>
+            <td>295</td>
+            <td><img src="Imagenes/480px-Exploud.png" width="100"></td>
+            <td>Exploud</td>
+            <td>De tipo normal. Evolución de Loudred.</td>
+          </tr>
+          <tr>
+            <td>296</td>
+            <td><img src="Imagenes/480px-Makuhita.png" width="100"></td>
+            <td>Makuhita</td>
+            <td>De tipo lucha.</td>
+          </tr>
+          <tr>
+            <td>297</td>
+            <td><img src="Imagenes/480px-Hariyama.png" width="100"></td>
+            <td>Hariyama</td>
+            <td>De tipo lucha. Evolución de Makuhita.</td>
+          </tr>
+          <tr>
+            <td>298</td>
+            <td><img src="Imagenes/480px-Azurill.png" width="100"></td>
+            <td>Azurill</td>
+            <td>De tipo normal y hada.</td>
+          </tr>
+          <tr>
+            <td>299</td>
+            <td><img src="Imagenes/480px-Nosepass.png" width="100"></td>
+            <td>Nosepass</td>
+            <td>De tipo roca.</td>
+          </tr>
+          <tr>
+            <td>300</td>
+            <td><img src="Imagenes/480px-Skitty.png" width="100"></td>
+            <td>Skitty</td>
+            <td>De tipo normal.</td>
+          </tr>
+          <tr>
+            <td>301</td>
+            <td><img src="Imagenes/480px-Delcatty.png" width="100"></td>
+            <td>Delcatty</td>
+            <td>De tipo normal. Evolución de Skitty.</td>
+          </tr>
+          <tr>
+            <td>302</td>
+            <td><img src="Imagenes/480px-Sableye.png" width="100"></td>
+            <td>Sableye</td>
+            <td>De tipo siniestro y fantasma.</td>
+          </tr>
+          <tr>
+            <td>303</td>
+            <td><img src="Imagenes/480px-Mawile.png" width="100"></td>
+            <td>Mawile</td>
+            <td>De tipo acero y hada.</td>
+          </tr>
+          <tr>
+            <td>304</td>
+            <td><img src="Imagenes/480px-Aron.png" width="100"></td>
+            <td>Aron</td>
+            <td>De tipo acero y roca.</td>
+          </tr>
+          <tr>
+            <td>305</td>
+            <td><img src="Imagenes/480px-Lairon.png" width="100"></td>
+            <td>Lairon</td>
+            <td>De tipo acero y roca. Evolución de Aron.</td>
+          </tr>
+          <tr>
+            <td>306</td>
+            <td><img src="Imagenes/480px-Aggron.png" width="100"></td>
+            <td>Aggron</td>
+            <td>De tipo acero y roca. Evolución de Lairon.</td>
+          </tr>
+          <tr>
+            <td>307</td>
+            <td><img src="Imagenes/480px-Meditite.png" width="100"></td>
+            <td>Meditite</td>
+            <td>De tipo lucha y psíquico.</td>
+          </tr>
+          <tr>
+            <td>308</td>
+            <td><img src="Imagenes/480px-Medicham.png" width="100"></td>
+            <td>Medicham</td>
+            <td>De tipo lucha y psíquico. Evolución de Meditite.</td>
+          </tr>
+          <tr>
+            <td>309</td>
+            <td><img src="Imagenes/480px-Electrike.png" width="100"></td>
+            <td>Electrike</td>
+            <td>De tipo eléctrico.</td>
+          </tr>
+          <tr>
+            <td>310</td>
+            <td><img src="Imagenes/480px-Manectric.png" width="100"></td>
+            <td>Manectric</td>
+            <td>De tipo eléctrico. Evolución de Electrike.</td>
+          </tr>
+          <tr>
+            <td>311</td>
+            <td><img src="Imagenes/480px-Plusle.png" width="100"></td>
+            <td>Plusle</td>
+            <td>De tipo eléctrico.</td>
+          </tr>
+          <tr>
+            <td>312</td>
+            <td><img src="Imagenes/480px-Minun.png" width="100"></td>
+            <td>Minun</td>
+            <td>De tipo eléctrico.</td>
+          </tr>
+          <tr>
+            <td>313</td>
+            <td><img src="Imagenes/480px-Volbeat.png" width="100"></td>
+            <td>Volbeat</td>
+            <td>De tipo bicho.</td>
+          </tr>
+          <tr>
+            <td>314</td>
+            <td><img src="Imagenes/480px-Illumise.png" width="100"></td>
+            <td>Illumise</td>
+            <td>De tipo bicho.</td>
+          </tr>
+          <tr>
+            <td>315</td>
+            <td><img src="Imagenes/480px-Roselia.png" width="100"></td>
+            <td>Roselia</td>
+            <td>De tipo planta y veneno.</td>
+          </tr>
+          <tr>
+            <td>316</td>
+            <td><img src="Imagenes/480px-Gulpin.png" width="100"></td>
+            <td>Gulpin</td>
+            <td>De tipo veneno.</td>
+          </tr>
+          <tr>
+            <td>317</td>
+            <td><img src="Imagenes/480px-Swalot.png" width="100"></td>
+            <td>Swalot</td>
+            <td>De tipo veneno. Evolución de Gulpin.</td>
+          </tr>
+          <tr>
+            <td>318</td>
+            <td><img src="Imagenes/480px-Carvanha.png" width="100"></td>
+            <td>Carvanha</td>
+            <td>De tipo agua y siniestro.</td>
+          </tr>
+          <tr>
+            <td>319</td>
+            <td><img src="Imagenes/480px-Sharpedo.png" width="100"></td>
+            <td>Sharpedo</td>
+            <td>De tipo agua y siniestro. Evolución de Carvanha.</td>
+          </tr>
+          <tr>
+            <td>320</td>
+            <td><img src="Imagenes/480px-Wailmer.png" width="100"></td>
+            <td>Wailmer</td>
+            <td>De tipo agua.</td>
+          </tr>
+          <tr>
+            <td>321</td>
+            <td><img src="Imagenes/480px-Wailord.png" width="100"></td>
+            <td>Wailord</td>
+            <td>De tipo agua. Evolución de Wailmer.</td>
+          </tr>
+          <tr>
+            <td>322</td>
+            <td><img src="Imagenes/480px-Numel.png" width="100"></td>
+            <td>Numel</td>
+            <td>De tipo fuego y tierra.</td>
+          </tr>
+          <tr>
+            <td>323</td>
+            <td><img src="Imagenes/480px-Camerupt.png" width="100"></td>
+            <td>Camerupt</td>
+            <td>De tipo fuego y tierra. Evolución de Numel.</td>
+          </tr>
+          <tr>
+            <td>324</td>
+            <td><img src="Imagenes/480px-Torkoal.png" width="100"></td>
+            <td>Torkoal</td>
+            <td>De tipo fuego.</td>
+          </tr>
+          <tr>
+            <td>325</td>
+            <td><img src="Imagenes/480px-Spoink.png" width="100"></td>
+            <td>Spoink</td>
+            <td>De tipo psíquico.</td>
+          </tr>
+          <tr>
+            <td>326</td>
+            <td><img src="Imagenes/480px-Grumpig.png" width="100"></td>
+            <td>Grumpig</td>
+            <td>De tipo psíquico. Evolución de Spoink.</td>
+          </tr>
+          <tr>
+            <td>327</td>
+            <td><img src="Imagenes/480px-Spinda.png" width="100"></td>
+            <td>Spinda</td>
+            <td>De tipo normal.</td>
+          </tr>
+          <tr>
+            <td>328</td>
+            <td><img src="Imagenes/480px-Trapinch.png" width="100"></td>
+            <td>Trapinch</td>
+            <td>De tipo tierra.</td>
+          </tr>
+          <tr>
+            <td>329</td>
+            <td><img src="Imagenes/480px-Vibrava.png" width="100"></td>
+            <td>Vibrava</td>
+            <td>De tipo tierra y dragón. Evolución de Trapinch.</td>
+          </tr>
+          <tr>
+            <td>330</td>
+            <td><img src="Imagenes/480px-Flygon.png" width="100"></td>
+            <td>Flygon</td>
+            <td>De tipo tierra y dragón. Evolución de Vibrava.</td>
+          </tr>
+          <tr>
+            <td>331</td>
+            <td><img src="Imagenes/480px-Cacnea.png" width="100"></td>
+            <td>Cacnea</td>
+            <td>De tipo planta y siniestro.</td>
+          </tr>
+          <tr>
+            <td>332</td>
+            <td><img src="Imagenes/480px-Cacturne.png" width="100"></td>
+            <td>Cacturne</td>
+            <td>De tipo planta y siniestro. Evolución de Cacnea.</td>
+          </tr>
+          <tr>
+            <td>333</td>
+            <td><img src="Imagenes/480px-Swablu.png" width="100"></td>
+            <td>Swablu</td>
+            <td>De tipo normal y volador.</td>
+          </tr>
+          <tr>
+            <td>334</td>
+            <td><img src="Imagenes/480px-Altaria.png" width="100"></td>
+            <td>Altaria</td>
+            <td>De tipo dragón y volador. Evolución de Swablu.</td>
+          </tr>
+          <tr>
+            <td>335</td>
+            <td><img src="Imagenes/480px-Zangoose.png" width="100"></td>
+            <td>Zangoose</td>
+            <td>De tipo normal.</td>
+          </tr>
+          <tr>
+            <td>336</td>
+            <td><img src="Imagenes/480px-Seviper.png" width="100"></td>
+            <td>Seviper</td>
+            <td>De tipo veneno.</td>
+          </tr>
+          <tr>
+            <td>337</td>
+            <td><img src="Imagenes/480px-Lunatone.png" width="100"></td>
+            <td>Lunatone</td>
+            <td>De tipo roca y psíquico.</td>
+          </tr>
+          <tr>
+            <td>338</td>
+            <td><img src="Imagenes/480px-Solrock.png" width="100"></td>
+            <td>Solrock</td>
+            <td>De tipo roca y psíquico.</td>
+          </tr>
+          <tr>
+            <td>339</td>
+            <td><img src="Imagenes/480px-Barboach.png" width="100"></td>
+            <td>Barboach</td>
+            <td>De tipo agua y tierra.</td>
+          </tr>
+          <tr>
+            <td>340</td>
+            <td><img src="Imagenes/480px-Whiscash.png" width="100"></td>
+            <td>Whiscash</td>
+            <td>De tipo agua y tierra. Evolución de Barboach.</td>
+          </tr>
+          <tr>
+            <td>341</td>
+            <td><img src="Imagenes/480px-Corphish.png" width="100"></td>
+            <td>Corphish</td>
+            <td>De tipo agua.</td>
+          </tr>
+          <tr>
+            <td>342</td>
+            <td><img src="Imagenes/480px-Crawdaunt.png" width="100"></td>
+            <td>Crawdaunt</td>
+            <td>De tipo agua y siniestro. Evolución de Corphish.</td>
+          </tr>
+          <tr>
+            <td>343</td>
+            <td><img src="Imagenes/480px-Baltoy.png" width="100"></td>
+            <td>Baltoy</td>
+            <td>De tipo tierra y psíquico.</td>
+          </tr>
+          <tr>
+            <td>344</td>
+            <td><img src="Imagenes/480px-Claydol.png" width="100"></td>
+            <td>Claydol</td>
+            <td>De tipo tierra y psíquico. Evolución de Baltoy.</td>
+          </tr>
+          <tr>
+            <td>345</td>
+            <td><img src="Imagenes/480px-Lileep.png" width="100"></td>
+            <td>Lileep</td>
+            <td>De tipo roca y planta.</td>
+          </tr>
+          <tr>
+            <td>346</td>
+            <td><img src="Imagenes/480px-Cradily.png" width="100"></td>
+            <td>Cradily</td>
+            <td>De tipo roca y planta. Evolución de Lileep.</td>
+          </tr>
+          <tr>
+            <td>347</td>
+            <td><img src="Imagenes/480px-Anorith.png" width="100"></td>
+            <td>Anorith</td>
+            <td>De tipo roca y bicho.</td>
+          </tr>
+          <tr>
+            <td>348</td>
+            <td><img src="Imagenes/480px-Armaldo.png" width="100"></td>
+            <td>Armaldo</td>
+            <td>De tipo roca y bicho. Evolución de Anorith.</td>
+          </tr>
+          <tr>
+            <td>349</td>
+            <td><img src="Imagenes/480px-Feebas.png" width="100"></td>
+            <td>Feebas</td>
+            <td>De tipo agua.</td>
+          </tr>
+          <tr>
+            <td>350</td>
+            <td><img src="Imagenes/480px-Milotic.png" width="100"></td>
+            <td>Milotic</td>
+            <td>De tipo agua. Evolución de Feebas.</td>
+          </tr>
+          <tr>
+            <td>351</td>
+            <td><img src="Imagenes/480px-Castform.png" width="100"></td>
+            <td>Castform</td>
+            <td>De tipo normal.</td>
+          </tr>
+          <tr>
+            <td>352</td>
+            <td><img src="Imagenes/480px-Kecleon.png" width="100"></td>
+            <td>Kecleon</td>
+            <td>De tipo normal.</td>
+          </tr>
+          <tr>
+            <td>353</td>
+            <td><img src="Imagenes/480px-Shuppet.png" width="100"></td>
+            <td>Shuppet</td>
+            <td>De tipo fantasma.</td>
+          </tr>
+          <tr>
+            <td>354</td>
+            <td><img src="Imagenes/480px-Banette.png" width="100"></td>
+            <td>Banette</td>
+            <td>De tipo fantasma. Evolución de Shuppet.</td>
+          </tr>
+          <tr>
+            <td>355</td>
+            <td><img src="Imagenes/480px-Duskull.png" width="100"></td>
+            <td>Duskull</td>
+            <td>De tipo fantasma.</td>
+          </tr>
+          <tr>
+            <td>356</td>
+            <td><img src="Imagenes/480px-Dusclops.png" width="100"></td>
+            <td>Dusclops</td>
+            <td>De tipo fantasma. Evolución de Duskull.</td>
+          </tr>
+          <tr>
+            <td>357</td>
+            <td><img src="Imagenes/480px-Tropius.png" width="100"></td>
+            <td>Tropius</td>
+            <td>De tipo planta y volador.</td>
+          </tr>
+          <tr>
+            <td>358</td>
+            <td><img src="Imagenes/480px-Chimecho.png" width="100"></td>
+            <td>Chimecho</td>
+            <td>De tipo psíquico.</td>
+          </tr>
+          <tr>
+            <td>359</td>
+            <td><img src="Imagenes/480px-Absol.png" width="100"></td>
+            <td>Absol</td>
+            <td>De tipo siniestro.</td>
+          </tr>
+          <tr>
+            <td>360</td>
+            <td><img src="Imagenes/480px-Wynaut.png" width="100"></td>
+            <td>Wynaut</td>
+            <td>De tipo psíquico.</td>
+          </tr>
+          <tr>
+            <td>361</td>
+            <td><img src="Imagenes/480px-Snorunt.png" width="100"></td>
+            <td>Snorunt</td>
+            <td>De tipo hielo.</td>
+          </tr>
+          <tr>
+            <td>362</td>
+            <td><img src="Imagenes/480px-Glalie.png" width="100"></td>
+            <td>Glalie</td>
+            <td>De tipo hielo. Evolución de Snorunt.</td>
+          </tr>
+          <tr>
+            <td>363</td>
+            <td><img src="Imagenes/480px-Spheal.png" width="100"></td>
+            <td>Spheal</td>
+            <td>De tipo hielo y agua.</td>
+          </tr>
+          <tr>
+            <td>364</td>
+            <td><img src="Imagenes/480px-Sealeo.png" width="100"></td>
+            <td>Sealeo</td>
+            <td>De tipo hielo y agua. Evolución de Spheal.</td>
+          </tr>
+          <tr>
+            <td>365</td>
+            <td><img src="Imagenes/480px-Walrein.png" width="100"></td>
+            <td>Walrein</td>
+            <td>De tipo hielo y agua. Evolución de Sealeo.</td>
+          </tr>
+          <tr>
+            <td>366</td>
+            <td><img src="Imagenes/480px-Clamperl.png" width="100"></td>
+            <td>Clamperl</td>
+            <td>De tipo agua.</td>
+          </tr>
+          <tr>
+            <td>367</td>
+            <td><img src="Imagenes/480px-Huntail.png" width="100"></td>
+            <td>Huntail</td>
+            <td>De tipo agua. Evolución de Clamperl.</td>
+          </tr>
+          <tr>
+            <td>368</td>
+            <td><img src="Imagenes/480px-Gorebyss.png" width="100"></td>
+            <td>Gorebyss</td>
+            <td>De tipo agua. Evolución de Clamperl.</td>
+          </tr>
+          <tr>
+            <td>369</td>
+            <td><img src="Imagenes/480px-Relicanth.png" width="100"></td>
+            <td>Relicanth</td>
+            <td>De tipo agua y roca.</td>
+          </tr>
+          <tr>
+            <td>370</td>
+            <td><img src="Imagenes/480px-Luvdisc.png" width="100"></td>
+            <td>Luvdisc</td>
+            <td>De tipo agua.</td>
+          </tr>
+          <tr>
+            <td>371</td>
+            <td><img src="Imagenes/480px-Bagon.png" width="100"></td>
+            <td>Bagon</td>
+            <td>De tipo dragón.</td>
+          </tr>
+          <tr>
+            <td>372</td>
+            <td><img src="Imagenes/480px-Shelgon.png" width="100"></td>
+            <td>Shelgon</td>
+            <td>De tipo dragón. Evolución de Bagon.</td>
+          </tr>
+          <tr>
+            <td>373</td>
+            <td><img src="Imagenes/480px-Salamence.png" width="100"></td>
+            <td>Salamence</td>
+            <td>De tipo dragón y volador. Evolución de Shelgon.</td>
+          </tr>
+          <tr>
+            <td>374</td>
+            <td><img src="Imagenes/480px-Beldum.png" width="100"></td>
+            <td>Beldum</td>
+            <td>De tipo acero y psíquico.</td>
+          </tr>
+          <tr>
+            <td>375</td>
+            <td><img src="Imagenes/480px-Metang.png" width="100"></td>
+            <td>Metang</td>
+            <td>De tipo acero y psíquico. Evolución de Beldum.</td>
+          </tr>
+          <tr>
+            <td>376</td>
+            <td><img src="Imagenes/480px-Metagross.png" width="100"></td>
+            <td>Metagross</td>
+            <td>De tipo acero y psíquico. Evolución de Metang.</td>
+          </tr>
+          <tr>
+            <td>377</td>
+            <td><img src="Imagenes/480px-Regirock.png" width="100"></td>
+            <td>Regirock</td>
+            <td>De tipo roca.</td>
+          </tr>
+          <tr>
+            <td>378</td>
+            <td><img src="Imagenes/480px-Regice.png" width="100"></td>
+            <td>Regice</td>
+            <td>De tipo hielo.</td>
+          </tr>
+          <tr>
+            <td>379</td>
+            <td><img src="Imagenes/480px-Registeel.png" width="100"></td>
+            <td>Registeel</td>
+            <td>De tipo acero.</td>
+          </tr>
+          <tr>
+            <td>380</td>
+            <td><img src="Imagenes/480px-Latias.png" width="100"></td>
+            <td>Latias</td>
+            <td>De tipo dragón y psíquico.</td>
+          </tr>
+          <tr>
+            <td>381</td>
+            <td><img src="Imagenes/480px-Latios.png" width="100"></td>
+            <td>Latios</td>
+            <td>De tipo dragón y psíquico.</td>
+          </tr>
+          <tr>
+            <td>382</td>
+            <td><img src="Imagenes/480px-Kyogre.png" width="100"></td>
+            <td>Kyogre</td>
+            <td>De tipo agua.</td>
+          </tr>
+          <tr>
+            <td>383</td>
+            <td><img src="Imagenes/480px-Groudon.png" width="100"></td>
+            <td>Groudon</td>
+            <td>De tipo tierra.</td>
+          </tr>
+          <tr>
+            <td>384</td>
+            <td><img src="Imagenes/480px-Rayquaza.png" width="100"></td>
+            <td>Rayquaza</td>
+            <td>De tipo dragón y volador.</td>
+          </tr>
+          <tr>
+            <td>385</td>
+            <td><img src="Imagenes/480px-Jirachi.png" width="100"></td>
+            <td>Jirachi</td>
+            <td>De tipo acero y psíquico.</td>
+          </tr>
+          <tr>
+            <td>386</td>
+            <td><img src="Imagenes/480px-Deoxys.png" width="100"></td>
+            <td>Deoxys</td>
+            <td>De tipo psíquico.</td>
+          </tr>
+        </table>
+      </td>
+      <td width="11%" align="left" valign="top">
+        <table border="2" cellpadding="5" cellspacing="2" bgcolor="#915d10">
+          <td bgcolor="bdb799">
+            <a href="index.html">Página Inicial</a>
+            <hr>
+            <a href="Pokedex.html">Pokedex</a>
+            <hr>
+            <a href="1ªGen.html">Primera Generación</a>
+            <hr>
+            <a href="2ªGen.html">Segunda Generación</a>
+            <hr>
+            <a href="4ªGen.html">Cuarta Generación</a>
+            <hr>
+            <a href="5ªGen.html">Quinta Generación</a>
+            <hr>
+            <a href="6ªGen.html">Sexta Generación</a>
+            <hr>
+            <a href="7ªGen.html">Séptima Generación</a>
+            <hr>
+            <a href="8ªGen.html">Octava Generación</a>
+            <hr>
+            <a href="9ªGen.html">Novena Generación</a>
+          </td>
+        </table>
+      </td>
+    </tr>
+    <tr width="100%" align="center" valign="center" bgcolor="bdb799">
+      <td>
+        <h4>© 2025 Pokédex. Todos los derechos reservados por Alexandru Turturica.</h4>
+      </td>
+      <td width="10%">
+        <a href="#">Volver arriba</a>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
