@@ -11,7 +11,7 @@ body {
     color: #ffffff;
     font-family: Arial, sans-serif;
     font-size: 16px;
-    background-image: url("Imagenes/pokemon_background.png");
+    background-image: url("img/pokemon_background.png");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -47,7 +47,7 @@ body {
   }
 
   .index-background {
-    background-image: url("Imagenes/pokemon_background.png");
+    background-image: url("img/pokemon_background.png");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -117,4 +117,5 @@ body {
     margin: 0;
     color: white;
     font-size: 24px;
+
   }
