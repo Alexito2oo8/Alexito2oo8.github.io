@@ -70,14 +70,12 @@ body {
     position: fixed;
     top: 54px;
     left: 30px;
-    display: inline-block;
   }
 
   .menu-content {
     display: none;
     position: fixed; 
     border: 2px solid #915d10;
-    min-width: 191px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
@@ -119,4 +117,5 @@ body {
     font-size: 24px;
 
   }
+
 
